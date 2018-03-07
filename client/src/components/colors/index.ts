@@ -1,8 +1,8 @@
 import * as colors from 'material-colors';
 
 var ThemeColors = [ 
-  colors.pink[800], 
-  colors.purple[800], 
+  '#007dba',
+  '#4eb4e6',
   colors.cyan[800], 
   colors.red[800], 
   colors.blue[800], 
