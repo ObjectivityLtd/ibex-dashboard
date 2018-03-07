@@ -1,9 +1,7 @@
+@import 'styles/theme';
 @import '../node_modules/react-md/src/scss/react-md';
 @import '../node_modules/leaflet/dist/leaflet.css';
-
-$md-primary-color: $md-cyan-500;
-$md-secondary-color: $md-pink-a-200;
-$md-font-regular: 300;
+@import 'styles/components';
 
 @include react-md-everything;
 

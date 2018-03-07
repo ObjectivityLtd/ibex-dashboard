@@ -1,0 +1,17 @@
+@import 'theme';
+
+.md-paper--2 {
+  $top-shadow-color: $color-border-grey;
+  $middle-shadow-color: $color-border-grey;
+  $bottom-shadow-color: $color-border-grey;
+
+  box-shadow: 0 4px 5px 0 $top-shadow-color, 0 1px 10px 0 $middle-shadow-color, 0 2px 4px -1px $bottom-shadow-color !important;
+}
+
+.md-text--theme-primary {
+  color: $color-light-grey !important;
+
+  .md-icon {
+    color: $color-light-grey !important;
+  }
+}

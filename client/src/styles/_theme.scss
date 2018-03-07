@@ -1,0 +1,26 @@
+@import '../../node_modules/react-md/src/scss/react-md';
+
+// Objectivity color palette
+$color-white: #fff;
+$color-warm-grey: #f5f5f3;
+$color-blue: #007dba;
+$color-navy-blue: #003594;
+$color-orange: #ff7f32;
+$color-dark-grey: #4d4d4d;
+$color-light-grey: #808080;
+$color-very-light-grey: #8c8c8c;
+$color-border-grey: #e5e5e5;
+$color-search: #bebebe;
+$color-quote: #b2b2b2;
+$color-search-active: #878786;
+$color-search-bg: #fafaf9;
+$color-shadow: rgba(0, 0, 0, .25);
+$color-red: #d65a67;
+$color-yellow: #ffd07c;
+$color-green: #76b743;
+$color-light-green: #c3c186;
+$color-dark-green: #67b68a;
+
+// Override Material Design variables
+$md-primary-color: $md-white-base;
+$md-primary-background-text-color: $color-blue;
