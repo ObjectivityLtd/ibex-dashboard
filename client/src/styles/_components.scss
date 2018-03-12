@@ -1,5 +1,21 @@
 @import 'theme';
 
+.md-title--toolbar {
+  .title-logo {
+    padding-top: 19px !important;
+
+    img {
+      max-height: none !important;
+      max-width: 130px !important;
+    }
+  }
+
+  span:last-child {
+    font-size: 16px !important;
+    margin-left: 15px !important;
+  }
+}
+
 .md-paper--2 {
   $top-shadow-color: $color-border-grey;
   $middle-shadow-color: $color-border-grey;
