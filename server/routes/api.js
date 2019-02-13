@@ -316,7 +316,7 @@ function isAuthorizedToSetup(req) {
   let currentAdmin = (req.user && req.user.email.toLowerCase()) || null;
   let isAdmin = config.admins.find(admin => admin.toLowerCase() === currentAdmin);
 
-  return true;
+  return isAdmin;
 }
 
 router.get('/setup', (req, res) => {
